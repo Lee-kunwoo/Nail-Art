@@ -1,3 +1,3 @@
 [
-    {"id" : 1, "name": "HENNA", "price": 3100, "img" :"/images/cuticle.png"}
+    {"id" : 1, "name": "HENNA", "price": 3100, "img" :"https://raw.githubusercontent.com/Lee-kunwoo/nailart/refs/heads/main/images/cuticle.png"}
 ]

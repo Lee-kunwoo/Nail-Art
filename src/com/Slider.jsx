@@ -7,13 +7,13 @@ const slidesData = [
     id: 1,
     title: "고객의 마음을 이해하는 정원아트네일",
     content: "JUNGWON NAIL ART",
-    bgImage: "/images/shop_01.webp", //  폴더 내 이미지
+    bgImage: "https://raw.githubusercontent.com/Lee-kunwoo/nailart/refs/heads/main/images/shop_01.webp", //  폴더 내 이미지
   },
   {
     id: 2,
     title: "No1. Nail Art Creation Company",
     content: "JUNGWON NAIL ART",
-    bgImage: "/images/shop_02.webp",
+    bgImage: "https://raw.githubusercontent.com/Lee-kunwoo/nailart/refs/heads/main/images/shop_02.webp",
   },
 ];
 
