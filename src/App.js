@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import Head from './com/Head';
+import Nav from './com/Nav';
+
+import Home from './pages/Home';
+import Cuticle from './pages/Cuticle';
+import Handcream from './pages/Handcream';
+import Nailhardener from './pages/Nailhardener';
+import Nailserum from './pages/Nailserum'
+import Guestbook from './pages/Guestbook'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Head />
+      <Nav />      
+      <Routes>
+         <Route path ='/' element ={<Home />} />
+         <Route path ='/Cuticle' element ={<Cuticle />} />
+         <Route path ='/Handcream' element ={<Handcream />} />
+         <Route path ='/Nailhardener' element ={<Nailhardener />} />
+         <Route path ='/Nailserum' element ={<Nailserum />} />
+         <Route path ='/Guestbook' element ={<Guestbook />} />
+      </Routes>     
     </div>
   );
 }
