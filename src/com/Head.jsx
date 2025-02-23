@@ -1,15 +1,14 @@
 import React from 'react'
 import '../styles/style.scss'
-import logoImage from "../images/Logo_resized.webp";
 
 const Head = () => {
   return (
   <div className='headoutbox'>
-  <div className="logo" style={{ backgroundImage: `url(${logoImage})` }}></div>
+  <div className="logo" style={{ backgroundImage: `url(${'/images/Logo_resized.webp'})` }}></div>
     <div className="topLogo">JunwonNailArt</div>  
     <div className='message'>정원네일아트는 고객과의 만남을 소중히 합니다.</div>
   </div>  
   )
 }
 
-export default Head
+export default Head;

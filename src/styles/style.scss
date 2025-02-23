@@ -56,7 +56,7 @@ body{
 .Nav{
     background-color:#242449;
     height: 100px; 
-    margin: 0 auto;
+    margin: 0;   
     ul{
         list-style: none;
         display: flex;
@@ -65,13 +65,14 @@ body{
         font-size: 30px;
         margin: 0;
         margin-left: 60px;
-        font-family: $font-family;
+        margin-right: 60px;
+        font-family: $font-family;        
           li{
             margin-right: 50px;
             padding: 5px;
             border-radius:$border-radius;
             color: $accent-color;
-            .home{                
+           .home{                
                 background-color: $accent-color;
                 color: #FFFFFF;
                 border: $border-radius;
@@ -90,7 +91,7 @@ body{
             }
             &:hover{
                 background-color:#7676aa;
-                cursor: pointer;
+                cursor: pointer;                
             }
         }
     }

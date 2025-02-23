@@ -7,7 +7,7 @@ import "../styles/TextTyping.scss"; // SCSS 파일 연결
 
 function Home() {
   return (
-    <div className="Home">
+    <div>
       <Slider />      
       <TextTyping />     
       <Footer />       
