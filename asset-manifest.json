@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nail-Art/static/css/main.b94bbf92.css",
+    "main.css": "/Nail-Art/static/css/main.917ddbf4.css",
     "main.js": "/Nail-Art/static/js/main.bd55a58b.js",
     "index.html": "/Nail-Art/index.html",
-    "main.b94bbf92.css.map": "/Nail-Art/static/css/main.b94bbf92.css.map",
+    "main.917ddbf4.css.map": "/Nail-Art/static/css/main.917ddbf4.css.map",
     "main.bd55a58b.js.map": "/Nail-Art/static/js/main.bd55a58b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b94bbf92.css",
+    "static/css/main.917ddbf4.css",
     "static/js/main.bd55a58b.js"
   ]
 }
