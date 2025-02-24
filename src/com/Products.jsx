@@ -10,6 +10,7 @@ const Products = () => {
         {
             topData.map(item=>(
                 <div key={item.id} className='inBox'>
+                    {/* eslint-disable-next-line */}
                     <img src={item.img} />
                     <h3>{item.name}</h3>
                     <h2>{item.price}원</h2>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Footer.scss"; // SCSS 파일 연결
+import "../styles/footer.scss"; // SCSS 파일 연결
 
 const Footer = () => {
   return (

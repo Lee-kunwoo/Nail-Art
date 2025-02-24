@@ -17,13 +17,13 @@ function App() {
       <Head />
       <Nav />      
       <Routes>
-         <Route path ='/' element ={<Home />} />
+         <Route index element ={<Home />} />
          <Route path ='/Cuticle' element ={<Cuticle />} />
          <Route path ='/Handcream' element ={<Handcream />} />
          <Route path ='/Nailhardener' element ={<Nailhardener />} />
          <Route path ='/Nailserum' element ={<Nailserum />} />
          <Route path ='/Guestbook' element ={<Guestbook />} />
-      </Routes>     
+      </Routes>    
     </div>
   );
 }
